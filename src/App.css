@@ -17,16 +17,18 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background:rgb(142, 203, 223);
 }
 
 h1 {
   font-size: 8rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  color: #40b48e;
+  color: pink;
   text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
   text-transform: uppercase;
   margin: 4rem 0;
+  
 }
 
 .search-form {
@@ -35,7 +37,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d3d3d3;
+  background-color: #ee4a4a;
   border-radius: 0.5rem;
   margin-bottom: 5rem;
   box-shadow: 1rem 2rem 5rem #aaa;
@@ -124,14 +126,14 @@ h1 {
 
 .recipe a {
   font-size: 1.8rem;
-  color: #40b48e;
+  color:red;
 }
 
 .recipe button {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
-  background-color: #40b48e;
+  background-color:blue;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
@@ -139,7 +141,7 @@ h1 {
 
 .ingredient-list {
   margin-top: 1rem;
-  background-color: #f0f0f0;
+  background-color:rebeccapurple;
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
